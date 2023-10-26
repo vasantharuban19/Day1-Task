@@ -1,0 +1,21 @@
+=> Day-1 task
+
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+   HTTP2 is much faster and more reliable than HTTP1. 
+   HTTP1 loads a single request for every TCP connection, 
+   while HTTP2 avoids network delay by using multiplexing.
+   HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, 
+   while still maintaining HTTP semantics, such as verbs, methods, and headers. 
+   As opposed to HTTP/1.1, which keeps all requests and responses in plain text format.
+
+2. Write a blog about objects and its internal representation in Javascript
+
+   Objects are one of the most important data types in JavaScript. 
+   They are used to store various key collections and more complex entities. 
+   Objects can be created using the Object() constructor or the object literal syntax. 
+   For example, we can create an object named myCars with some properties and methods as follows
+
+   JavaScript engines use different ways to represent objects internally. 
+   One of the most popular engines is V8, which is developed by Google and used in Chrome and Node.js. 
+   V8 uses two modes to represent objects: fast mode and dictionary mode.
